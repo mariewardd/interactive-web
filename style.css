@@ -1,0 +1,69 @@
+body{
+    margin: 50px;
+    text-align: center;
+    align-content:center;
+
+    background: black;
+    color:white;
+    font-size:30px;
+    font-family:Impact;
+    letter-spacing: 2px;
+}
+
+.next{
+    font-size:30px;
+    position:fixed;
+    bottom:20px;
+    right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    font-size: 35;
+    text-align: left;
+    position:fixed;
+    bottom:18px;
+    left: 30px;
+    color: white;
+    text-decoration:none;
+}
+
+.worse{
+    font-size:30px;
+    position:fixed;
+    bottom:20px;
+    right: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+.blurry{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 30px;
+    font-family: Impact;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.blurrybackground{
+    background-color: rgb(255, 0, 0);
+}
+
+.pain{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 30px;
+    font-family: Impact;
+    letter-spacing: 2px;
+    text-align: center;
+}

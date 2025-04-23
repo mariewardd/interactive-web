@@ -1,0 +1,42 @@
+body{
+    background:url(sketch2.js);
+    color:white;
+    font-size:30px;
+    font-family:Impact;
+    letter-spacing: 2px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.next{
+    font-size:30px;
+    position:fixed;
+    bottom:20px;
+    right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    font-size: 35;
+    text-align: left;
+    position:fixed;
+    bottom:18px;
+    left: 30px;
+    color: white;
+    text-decoration:none;
+}
+
+.pain{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 30px;
+    font-family: Impact;
+    letter-spacing: 2px;
+    text-align: center;
+}
