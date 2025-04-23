@@ -1,11 +1,12 @@
 let mouseHeld = false;
 
+
 function setup() {
   createCanvas(1920, 1080);
   resizeCanvas(windowWidth, windowHeight);
 
   textFont("Impact");
-  textSize(50);
+  textSize(40);
 
 }
 
@@ -14,22 +15,51 @@ function draw() {
 
     background(mouseHeld ? "blue" : color(random(255), 0, random(255)));
 
-    for (let x = 0; x <= width; x += 295) {
+    for (let x = 0; x <= width; x += 245) {
     for (let y = 0; y <= height; y += 45) {
-      let jitterX = mouseHeld ? 0 : random(-5, 5);
-      let jitterY = mouseHeld ? 0 : random(-5, 5);
-      fill(0, 255);
+      let jitterX = mouseHeld ? 0 : random(-8, 8);
+      let jitterY = mouseHeld ? 0 : random(-8, 8);
+      fill(255, 0, 0, 100);
+      text("MYHEADHURTS", x + jitterX, y + jitterY, 150);
+
+    }
+  }
+
+  for (let x = 0; x <= width; x += 245) {
+    for (let y = 0; y <= height; y += 45) {
+      let jitterX = mouseHeld ? 0 : random(-8, 8);
+      let jitterY = mouseHeld ? 0 : random(-8, 8);
+      fill(0, 0, 255, 100);
       text("MYHEADHURTS", x + jitterX, y + jitterY, 150);
     }
   }
+
+  for (let x = 0; x <= width; x += 245) {
+    for (let y = 0; y <= height; y += 45) {
+      let jitterX = mouseHeld ? 0 : random(-8, 8);
+      let jitterY = mouseHeld ? 0 : random(-8, 8);
+      fill(255, 50);
+      text("MYHEADHURTS", x + jitterX, y + jitterY, 150);
+
+    }
+  }
+
+  for (let x = 0; x <= width; x += 245) {
+    for (let y = 0; y <= height; y += 45) {
+      let jitterX = mouseHeld ? 0 : random(-8, 8);
+      let jitterY = mouseHeld ? 0 : random(-8, 8);
+      fill(0, 200);
+      text("MYHEADHURTS", x + jitterX, y + jitterY, 150);
+
+    }
+  }
+
 }
 
 function mousePressed() {
   mouseHeld = true;
-  background(0);
 }
 
 function mouseReleased() {
   mouseHeld = false;
-  background(0);
 }

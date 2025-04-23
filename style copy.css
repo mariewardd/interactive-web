@@ -15,7 +15,7 @@ body{
     position:fixed;
     bottom:20px;
     right: 30px;
-    color: red;
+    color: blue;
     text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ body{
     position:fixed;
     bottom:18px;
     left: 30px;
-    color: blue;
+    color: white;
     text-decoration:none;
 }
 
@@ -34,7 +34,7 @@ body{
     position:fixed;
     bottom:20px;
     right: 30px;
-    color: white;
+    color: #ff0000;
     text-decoration: none;
 }
 
