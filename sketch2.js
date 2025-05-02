@@ -1,18 +1,20 @@
 let mouseHeld = false;
+let startTime;
 
 
 function setup() {
   createCanvas(1920, 1080);
   resizeCanvas(windowWidth, windowHeight);
+  startTime = millis(); // Start the timer
 
-  textFont("Impact");
-  textSize(40);
 
 }
 
 function draw() {
     //asked chatgpt how to make the background stop being random when the mouse is held - I couldn't figure it out!
 
+    textFont("Impact");
+    textSize(40);
     background(mouseHeld ? "blue" : color(random(255), 0, random(255)));
 
     for (let x = 0; x <= width; x += 245) {
@@ -52,6 +54,14 @@ function draw() {
       text("MYHEADHURTS", x + jitterX, y + jitterY, 150);
 
     }
+  }
+
+
+  if (millis() - startTime < 5000) {
+    textSize(20);
+    fill(255);
+    textAlign(CENTER, CENTER);
+    text("h o l d  d o w n  t h e  m o u s e", width / 2, height / 2);
   }
 
 }

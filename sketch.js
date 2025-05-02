@@ -1,13 +1,18 @@
 let blurAmount = 2;
+let startTime;
+
 
 function setup() {
   createCanvas(800, 200);
-  textSize(100);
   textFont("Keania One");
+  startTime = millis(); // Start the timer
+
 }
 
 function draw() {
-  background(255,0,0);
+  textSize(100);
+  textFont("Keania One");
+  background(0,0,255);
   noStroke();
   textAlign(CENTER, CENTER);
   
@@ -33,12 +38,21 @@ function draw() {
   }
   textAlign(CENTER, CENTER);
 
-
-
-  fill(255, 10);
-  for (let i = -blurAmount; i <= blurAmount; i++) {
-    for (let j = -blurAmount; j <= blurAmount; j++) {
-      text("BLURRY VISION", textX + i, textY + j);
-    }
+   // Draw blurry text
+   fill(255, 10); // very transparent
+   for (let i = -blurAmount; i <= blurAmount; i++) {
+     for (let j = -blurAmount; j <= blurAmount; j++) {
+       text("BLURRY VISION", textX + i, textY + j);
+     }
+   }
+ 
+   // ✅ Draw hover instruction ON TOP
+   // Reset style so it's not affected by previous loop
+   if (millis() - startTime < 5000) {
+    textSize(20);
+    textFont("Impact");
+    fill(0);
+    textAlign(CENTER, CENTER);
+    text("hover over the text", width / 2, height / 2);
   }
 }

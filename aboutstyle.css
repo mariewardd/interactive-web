@@ -25,7 +25,7 @@ body{
     position:fixed;
     bottom:18px;
     left: 30px;
-    color: white;
+    color: blue;
     text-decoration:none;
 }
 
@@ -34,7 +34,7 @@ body{
     position:fixed;
     bottom:20px;
     right: 30px;
-    color: #ff0000;
+    color: white;
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ body{
 }
 
 .blurrybackground{
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
 }
 
 .pain{
