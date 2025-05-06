@@ -1,5 +1,5 @@
 body{
-    margin: 50px;
+    margin-top: 10%;
     text-align: center;
     align-content:center;
 
@@ -17,18 +17,18 @@ canvas{
 .next{
     font-size:30px;
     position:fixed;
-    bottom:20px;
-    right: 30px;
+    bottom:5%;
+    right: 5%;
     color: blue;
     text-decoration: none;
 }
 
 .home{
-    font-size: 35;
+    font-size: 38;
     text-align: left;
     position:fixed;
-    bottom:18px;
-    left: 30px;
+    bottom:5%;
+    left: 5%;
     color: white;
     text-decoration:none;
 }

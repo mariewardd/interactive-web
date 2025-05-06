@@ -1,9 +1,9 @@
 body{
-    margin: 50px;
+    margin: 10%;
     text-align: center;
     align-content:center;
 
-    background: black;
+    background: blue;
     color:white;
     font-size:30px;
     font-family:Impact;
@@ -13,18 +13,18 @@ body{
 .next{
     font-size:30px;
     position:fixed;
-    bottom:20px;
-    right: 30px;
+    bottom:5%;
+    right: 5%;
     color: red;
     text-decoration: none;
 }
 
 .home{
-    font-size: 35;
+    font-size: 38;
     text-align: left;
     position:fixed;
-    bottom:18px;
-    left: 30px;
+    bottom:5%;
+    left: 5%;
     color: white;
     text-decoration:none;
 }
@@ -40,7 +40,7 @@ body{
 
 .blurry{
     position: fixed;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     

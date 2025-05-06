@@ -1,5 +1,5 @@
 body{
-    margin: 50px;
+    margin: 10%;
     text-align: center;
     align-content:center;
 
@@ -8,34 +8,27 @@ body{
     font-size:30px;
     font-family:Impact;
     letter-spacing: 2px;
+
+    
 }
 
 .next{
     font-size:30px;
     position:fixed;
-    bottom:20px;
-    right: 30px;
+    bottom:5%;
+    right: 5%;
     color: red;
     text-decoration: none;
 }
 
 .home{
-    font-size: 35;
+    font-size: 38;
     text-align: left;
     position:fixed;
-    bottom:18px;
-    left: 30px;
+    bottom:5%;
+    left: 5%;
     color: blue;
     text-decoration:none;
-}
-
-.worse{
-    font-size:30px;
-    position:fixed;
-    bottom:20px;
-    right: 30px;
-    color: white;
-    text-decoration: none;
 }
 
 .blurry{

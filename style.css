@@ -1,5 +1,4 @@
 body{
-    margin: 50px;
     text-align: center;
     align-content:center;
 
@@ -10,21 +9,28 @@ body{
     letter-spacing: 2px;
 }
 
+.words{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .next{
     font-size:30px;
     position:fixed;
-    bottom:20px;
-    right: 30px;
+    bottom:5%;
+    right: 5%;
     color: red;
     text-decoration: none;
 }
 
 .home{
-    font-size: 35;
+    font-size: 38;
     text-align: left;
     position:fixed;
-    bottom:18px;
-    left: 30px;
+    bottom:5%;
+    left: 5%;
     color: blue;
     text-decoration:none;
 }
@@ -32,8 +38,8 @@ body{
 .worse{
     font-size:30px;
     position:fixed;
-    bottom:20px;
-    right: 30px;
+    bottom:5%;
+    right: 5%;
     color: white;
     text-decoration: none;
 }
