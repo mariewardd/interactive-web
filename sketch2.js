@@ -57,7 +57,7 @@ function draw() {
   }
 
 
-  if (millis() - startTime < 5000) {
+  if (millis() - startTime < 3000) {
     textSize(20);
     fill(255);
     textAlign(CENTER, CENTER);

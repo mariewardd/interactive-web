@@ -67,3 +67,16 @@ body{
     letter-spacing: 2px;
     text-align: center;
 }
+
+.hardtofocus{
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 30px;
+    font-family: Impact;
+    letter-spacing: 2px;
+    text-align: center;
+}

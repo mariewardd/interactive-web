@@ -3,7 +3,7 @@ let startTime;
 
 
 function setup() {
-  createCanvas(800, 200);
+  createCanvas(800, 400);
   textFont("Keania One");
   startTime = millis(); // Start the timer
 
@@ -46,9 +46,9 @@ function draw() {
      }
    }
  
-   // ✅ Draw hover instruction ON TOP
+   // Draw hover instruction ON TOP
    // Reset style so it's not affected by previous loop
-   if (millis() - startTime < 5000) {
+   if (millis() - startTime < 3000) {
     textSize(20);
     textFont("Impact");
     fill(0);
